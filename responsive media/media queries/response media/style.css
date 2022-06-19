@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+    
+
+}
+
+
+
+
+
+.link {
+    text-decoration: none;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    padding: 8px;
+    border-radius: 20px;
+    flex: 10%;
+
+}
+.pic{
+
+    background-color: hsl(193, 100%, 96%);
+    padding: 3em;
+    background-position: top left, 700px, center;
+    background-image: url(/PICTURES/pictures/pictures/logo.png), url(/PICTURES/pictures/pictures/illustration-mockups.png), url(/PICTURES/pictures/pictures/bg-hero-desktop-_1_.png);
+   min-height: 10px, 30px, 50px;
+   background-repeat: no-repeat;
+   background-size: 150px, 600px, 100%;
+   display: flex;
+   flex-wrap: wrap; 
+   
+
+}
+
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-left: 10px;
+
+}
+
+p{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.try{
+    
+    margin-left: 85%;
+    font-size: 12px;
+    box-shadow: 2px 2px 4px hsl(208, 11%, 55%),
+    -2px -2px 4px hsl(208, 11%, 55%);
+    text-decoration: none;
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    flex-basis: 90px;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: white;
+
+  
+   
+
+
+
+
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: hsl(322, 100%, 60%);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+    border: none;
+    width: 140px;
+    cursor: pointer;
+   
+   
+}
+
+
+#btn{
+    margin-left: 140px;
+}
+
+.btn:link {
+    text-decoration: none;
+
+ 
+}
+
+.btn:active {
+    box-shadow: 2px 2px 4px hsl(208, 11%, 55%),
+        -2px -2px 4px hsl(208, 11%, 55%);
+    text-shadow: -2px 3px 2px white;
+}
+
+.grow{
+    padding: 50px;
+    background-image: url(/PICTURES/pictures/pictures/illustration-grow-together-_1_.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position:700px;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    text-align: justify;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(80, 80, 80, 0.2),
+    -2px -2px 4px rgba(80, 80, 80, 0.2);
+
+}
+.second{
+    text-align: left;
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flowing{
+    padding: 50px; 
+    background-image: url(/PICTURES/pictures/pictures/illustration-flowing-conversation.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position:700px;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    text-align: justify;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(80, 80, 80, 0.2),
+    -2px -2px 4px rgba(80, 80, 80, 0.2);
+}
+.third{
+    text-align: left;
+    margin-top: 70px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.users{
+    padding: 50px;
+    background-image: url(/PICTURES/pictures/pictures/illustration-your-users.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position:700px;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    text-align: justify;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(80, 80, 80, 0.2),
+    -2px -2px 4px rgba(80, 80, 80, 0.2);
+}
+
+.fourth{
+    text-align: left;
+    margin-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ready{
+    padding: 30px;
+    width: 35%;
+    height: 25vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(80, 80, 80, 0.2),
+    -2px -2px 4px rgba(80, 80, 80, 0.2);
+    
+}
+
+.fifth{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.thlink{
+    
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 60%);
+    align-content: center;
+    color: white;
+    width: 10%;
+   margin: auto;
+
+
+}
+
+.sixth{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+.sixth{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.fline{
+    background-image: url(/PICTURES/pictures/pictures/logo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    filter: brightness(0) invert(1);
+    background-size: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 20%;
+    margin-right: 100px ;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+   
+}
+
+.sline{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 20%;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.tline{
+    flex: 20%;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.laline{
+    margin-top: 150px; 
+}
+
+.img{
+    background-size: 300px;
+}
+
+
+.fa-brands{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+@media screen and (max-width: 600) {
+    pic{
+        display: block;
+        background-position: center;
+        flex-wrap: none;
+    }
+    grow{
+        display: block;
+        align-items: center;
+        background-image: url(/PICTURES/pictures/pictures/illustration-grow-together-_1_.png);
+    }
+    
+}
+
+
